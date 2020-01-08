@@ -1,0 +1,73 @@
+.ad-current {
+  padding: 30px 15px 30px 30px;
+}
+
+.ad-current__previews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ad-current__full-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1400px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.ad-current__full-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ad-current__title {
+  margin-bottom: 40px;
+}
+
+.ad-current__address {
+  font-size: 18px;
+}
+
+.ad-current__price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ad-current__description {
+  max-width: 1000px;
+}
+
+.ad-current__name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ad-current__exit {
+  text-decoration: none;
+
+  border-bottom: 1px solid;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  background-color: #000000;
+}
+
+.preview {
+  max-width: 100%;
+  max-height: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
